@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14240da7-8c42-4edc-97ce-3ee891d56417" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-domain/src/main/java/com/gift/domain/DomainFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-domain/src/main/java/com/gift/domain/gateway/UserInfoGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-domain/src/main/java/com/gift/domain/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-domain/src/main/java/com/gift/domain/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-domain/src/main/java/com/gift/domain/user/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/common/event/DomainEventPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/common/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/config/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/convertor/UserInfoConvertor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/convertor/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/AppMetricGatewayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/UserGatewayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/database/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/database/dataobject/BaseDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/database/dataobject/UserInfoDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/database/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/rpc/AppMetricMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/rpc/dataobject/AppMetricDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/rpc/dataobject/BugMetricDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/gatewayimpl/rpc/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/repository/AppMetricRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/java/com/gift/infrastructure/repository/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-infrastructure/src/main/resources/ddd-schedule.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-starter/src/main/java/com/gift/starter/ApplicationStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-starter/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="14240da7-8c42-4edc-97ce-3ee891d56417" name="Changes" comment="领域驱动设计项目框架搭建" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "aspect.path.notification.shown": "true",
     "jdk.selected.JAVA_MODULE": "18",
@@ -142,8 +100,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671795357945</updated>
-      <workItem from="1671795359231" duration="1199000" />
+      <workItem from="1671795359231" duration="1923000" />
     </task>
+    <task id="LOCAL-00001" summary="领域驱动设计项目框架搭建">
+      <created>1671797226291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671797226291</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="领域驱动设计项目框架搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="领域驱动设计项目框架搭建" />
   </component>
 </project>
